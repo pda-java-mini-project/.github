@@ -31,13 +31,13 @@ MVC를 도메인 단위로 분리함
 📦src
  ┣ 📂exception
  ┣ 📂function
- ┃ ┣ 📜MainFunction.java
+ ┃ ┣ 📜HomeFunction.java
  ┃ ┣ 📜OrderFunction.java
  ┃ ┗ 📜UserFunction.java
- ┣ 📂main
+ ┣ 📂home
  ┃ ┣ 📂view
- ┃ ┃ ┗ 📜MainView.java
- ┃ ┗ 📜MainController.java
+ ┃ ┃ ┗ 📜HomeView.java
+ ┃ ┗ 📜HomeController.java
  ┣ 📂order
  ┃ ┣ 📂model
  ┃ ┃ ┣ 📜Cart.java
