@@ -1,10 +1,9 @@
 # BESTful
-
-| CLI를 활용한 배달의 민족 어플리케이션 <br />
-| Java만 사용하여(Spring 사용 X) MVC를 분리하여 구현
-
+CLI 기반 배달의 민족 어플리케이션
+- 언어: Java (Spring 프레임워크 미사용)
+- 설계 패턴: MVC (Model-View-Controller) 패턴을 이용하여 구현
 - 기간 2024.07.10 ~ 2024.07.15
-  <br />
+<br />
 
 ### 구현 기능 리스트
 
