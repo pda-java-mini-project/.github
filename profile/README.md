@@ -18,14 +18,9 @@ MVC를 도메인 단위로 분리함
 ```
 📦src
  ┣ 📂exception
- ┃ ┣ 📜ExceptionHandler.java
- ┃ ┣ 📜InvalidInputException.java
- ┃ ┣ 📜MenuNotFoundException.java
- ┃ ┗ 📜UserNotFoundException.java
  ┣ 📂function
  ┃ ┣ 📜MainFunction.java
  ┃ ┣ 📜OrderFunction.java
- ┃ ┣ 📜StoreFunction.java
  ┃ ┗ 📜UserFunction.java
  ┣ 📂main
  ┃ ┣ 📂view
@@ -48,21 +43,19 @@ MVC를 도메인 단위로 분리함
  ┃ ┃ ┣ 📜MenuGM.java
  ┃ ┃ ┣ 📜Store.java
  ┃ ┃ ┣ 📜StoreDB.java
- ┃ ┃ ┣ 📜StoreModel.java
- ┃ ┃ ┗ 📜StoreOrderDTO.java
+ ┃ ┃ ┣ 📜StoreOrderDTO.java
+ ┃ ┃ ┗ 📜StoreService.java
  ┃ ┣ 📜StoreController.java
  ┃ ┗ 📜StoreView.java
  ┣ 📂user
- ┃ ┣ 📂entity
+ ┃ ┣ 📂model
  ┃ ┃ ┣ 📜User.java
- ┃ ┃ ┗ 📜UserDAO.java
- ┃ ┣ 📂service
+ ┃ ┃ ┣ 📜UserDAO.java
  ┃ ┃ ┗ 📜UserService.java
  ┃ ┣ 📜UserController.java
  ┃ ┗ 📜UserView.java
  ┣ 📜Application.java
- ┣ 📜Main.java
- ┗ 📜OrderManager.java
+ ┗ 📜Main.java
 ```
 
 ### Git
